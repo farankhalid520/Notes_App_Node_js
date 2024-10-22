@@ -5,13 +5,13 @@
 - Go in your browser and refresh the dashboard page.
 
 ******** Option 2
-- Insert the data below manually into MongoDB. This might be the smartest option.
+- Insert the data below manually into MongoDB. 
 
   try {
     await Note.insertMany([
       {
         user: "63a311c746a82a5d58143e1a",
-        title: "In this tutorial, we are going to create a simple, accessible and responsive navigation menu bar and side menu using TailwindCSS v3.0 and Alpine.js. For those of you who would prefer a Video Tutorial you can watch it here.",
+        title: "Notes APP",
         body: "Let's look into JS animations",
         createdAt: "1671634422539",
         updatedAt: "1671634422539"
@@ -33,7 +33,7 @@
       {
         user: "63a311c746a82a5d58143e1a",
         title: "JavaScript Async Await",
-        body: "In this short tutorial, I will re-use some of the code I wrote for a YouTube tutorial creating an Apex Legend-inspired menu. I will make a simple function that fetches data from a dummy API and display some of it on the page.",
+        body: "Notes APP",
         createdAt: "1671634422539",
         updatedAt: "1671634422539"
       },
@@ -60,8 +60,8 @@
       },
       {
         user: "63a311c746a82a5d58143e1a",
-        title: "Build a React Portfolio with TailwindCSS",
-        body: "Learn how to add TailwindCSS to your React project and build a portfolio with Tailwind's grid layouts, typography, and responsive design.",
+        title: "TailwindCSS",
+        body: "Tailwind's grid layouts, typography, and responsive design.",
         createdAt: "1671634422539",
         updatedAt: "1671634422539"
       },
@@ -75,7 +75,7 @@
       {
         user: "63a311c746a82a5d58143e1a",
         title: "React A JavaScript library for building user interfaces",
-        body: "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.",
+        body: "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. Meta and a community of individual developers and companies maintain it.",
         createdAt: "1671634422539",
         updatedAt: "1671634422539"
       },
